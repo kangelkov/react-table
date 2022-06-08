@@ -1,0 +1,32 @@
+.paginationWrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.paginationWrapper:first-of-type {
+    margin-left: 15px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid purple;
+    /*width: 60px;*/
+    /*height: 40px;*/
+    padding: 10px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:active, a:visited {
+    color: black
+}
